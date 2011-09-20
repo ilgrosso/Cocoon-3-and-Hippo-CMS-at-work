@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:components">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:components</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>aa29d56f-718a-48b1-9df7-920d974fb63e</sv:value>
+  </sv:property>
+  <sv:node sv:name="leftmenu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>56f2ce47-9ec8-4f12-95f9-d91612057e5b</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.blogspot.chicchiricco.hctdemo.components.LeftMenu</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>standard.main.leftmenu</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="content">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>b3253e7b-6f96-4a4b-b0d9-fb10da0a9861</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.blogspot.chicchiricco.hctdemo.components.Detail</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>standard.main.content</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="overview">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a6060eca-35be-4822-9e1f-60a45c5e9aca</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.blogspot.chicchiricco.hctdemo.components.Overview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>overview.main.content</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hctxml">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>422afadf-c1fd-46af-9283-95ad936dda63</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.blogspot.chicchiricco.hctdemo.components.HCTXml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>layout.hctxml</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="hctpdf">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:component</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>7a8ed2b5-bbd3-43be-a75f-86a880e433fc</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentclassname" sv:type="String">
+      <sv:value>com.blogspot.chicchiricco.hctdemo.components.HCTPdf</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true"/>
+    <sv:property sv:name="hst:template" sv:type="String">
+      <sv:value>layout.hctpdf</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
